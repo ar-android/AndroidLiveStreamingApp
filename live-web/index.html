@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Android Video Streaming</title>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="jwplayer.js"></script>
+    <script src="player.js" type="text/javascript"></script>
+    <script>jwplayer.key = ""</script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+<!-- Header -->
+<div id="header">
+    <div class="container">
+        <h1>Android Video Streaming</h1>
+    </div>
+</div>
+<!-- ./Header -->
+
+<!-- Video Preview -->
+<div class="container">
+    <div id="video_preview">
+        <div id="player"></div><div class="clear"></div>
+        <br/><br/><br/>
+        <input type="text" id="stream_url" value="rtmp://172.20.10.2:1935/live/android_test"/><br/>
+        <input type="button" id="btn_start" class="" value="Start" />
+        <input type="button" id="btn_stop" class="" value="Stop"/>
+    </div>
+    <div class="clear"></div>
+</div>
+<!-- ./Video Preview -->
+
+<div class="container">
+    <div class="info"><p>
+        <a href="http://www.wowza.com/">Wowza Media Engine</a><br/>
+        Thanks <a href="Fyhertz">@Fyhertz</a> for <a href="https://github.com/fyhertz/libstreaming">libstreaming</a><br/>
+        https://ahmadrosid.github.io
+    </p>
+    </div>
+</div>
+</body>
+</html>
